@@ -1,0 +1,74 @@
+{
+    "classes": [
+        {
+            "course_name": "Network technology foundation lecture",
+            "day": "Monday",
+            "time_start": "08:00",
+            "time_end": "10:00",
+            "location": ""
+        },
+        {
+            "course_name": "Machine learning lecture",
+            "day": "Monday",
+            "time_start": "12:00",
+            "time_end": "14:00",
+            "location": ""
+        },
+        {
+            "course_name": "Philosophy and Current Issues - online",
+            "day": "Monday",
+            "time_start": "17:00",
+            "time_end": "19:00",
+            "location": "online"
+        },
+        {
+            "course_name": "Data structure tutorial occ 7",
+            "day": "Tuesday",
+            "time_start": "09:00",
+            "time_end": "12:00",
+            "location": ""
+        },
+        {
+            "course_name": "Computer systems architecture tutorial occ7",
+            "day": "Tuesday",
+            "time_start": "12:00",
+            "time_end": "13:00",
+            "location": ""
+        },
+        {
+            "course_name": "Machine learning tutorial occ7",
+            "day": "Tuesday",
+            "time_start": "15:00",
+            "time_end": "16:00",
+            "location": ""
+        },
+        {
+            "course_name": "Data structure lecture",
+            "day": "Wednesday",
+            "time_start": "08:00",
+            "time_end": "10:00",
+            "location": ""
+        },
+        {
+            "course_name": "Computer systems architecture lecture",
+            "day": "Wednesday",
+            "time_start": "12:00",
+            "time_end": "14:00",
+            "location": ""
+        },
+        {
+            "course_name": "Basic korean language 1 - online",
+            "day": "Wednesday",
+            "time_start": "17:00",
+            "time_end": "19:00",
+            "location": "online"
+        },
+        {
+            "course_name": "Network technology foundation tutorial occ 13",
+            "day": "Friday",
+            "time_start": "15:00",
+            "time_end": "17:00",
+            "location": ""
+        }
+    ]
+}
