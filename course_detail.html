@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Course Detail - ClarifyUM</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <style>
+        .glass-panel { background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(20px); border: 1px solid rgba(0, 0, 0, 0.05); }
+        .soft-shadow { box-shadow: 0 4px 20px -2px rgba(0, 51, 102, 0.05); }
+        details > summary { list-style: none; }
+        details > summary::-webkit-details-marker { display: none; }
+        details[open] summary ~ * { animation: slideDown 0.3s ease-in-out; }
+        @keyframes slideDown { 0% { opacity: 0; transform: translateY(-10px); } 100% { opacity: 1; transform: translateY(0); } }
+    </style>
+</head>
+<body class="bg-[#F9FAFB] text-slate-800 font-['Inter'] antialiased min-h-screen flex flex-col">
+
+    <header class="bg-white/70 backdrop-blur-md sticky top-0 z-50 border-b border-slate-200/30 shadow-sm">
+        <div class="max-w-[1200px] mx-auto px-6 h-16 flex items-center justify-between">
+            <button onclick="window.location.href='course_hub.html'" class="flex items-center text-slate-500 hover:text-[#003366] transition-colors text-sm font-semibold">
+                <span class="material-symbols-outlined mr-2">arrow_back</span> Back to Hub
+            </button>
+            <div class="flex items-center gap-3">
+                <button onclick="alert('Opening Course Settings')" class="p-2 rounded-full hover:bg-slate-100 text-slate-500 transition-colors"><span class="material-symbols-outlined text-[20px]">more_vert</span></button>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-1 max-w-[1200px] w-full mx-auto p-6 md:p-10">
+        <div class="mb-10">
+            <h1 id="courseTitle" class="text-3xl font-bold text-slate-800 mb-2">Loading Course...</h1>
+            <p class="text-slate-500 flex items-center gap-2">
+                <span class="material-symbols-outlined text-[18px]">school</span> University of Malaya SPeCTRUM
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div class="lg:col-span-2 space-y-4" id="accordionContainer">
+                <div class="flex flex-col items-center justify-center py-20">
+                    <div class="w-8 h-8 border-4 border-blue-100 border-t-[#003366] rounded-full animate-spin mb-4"></div>
+                    <p class="text-slate-500 font-medium">Extracting content...</p>
+                </div>
+            </div>
+
+            <div class="space-y-6">
+                <div id="attendanceCard" class="hidden glass-panel rounded-2xl p-6 soft-shadow border-l-4 border-l-green-500">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-10 h-10 rounded-full bg-green-50 flex items-center justify-center text-green-600">
+                            <span class="material-symbols-outlined">how_to_reg</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-800">Attendance</h3>
+                    </div>
+                    <p class="text-sm text-slate-500 mb-4">Mark your attendance for this week's lecture/tutorial directly via SPeCTRUM.</p>
+                    <a id="attendanceLink" href="#" target="_blank" class="block w-full text-center bg-green-50 text-green-700 font-semibold py-2 rounded-lg hover:bg-green-100 transition-colors text-sm border border-green-200">
+                        Open Attendance Link
+                    </a>
+                </div>
+
+                <div class="glass-panel rounded-2xl p-6 soft-shadow">
+                    <h3 class="text-lg font-bold text-slate-800 mb-4 flex items-center gap-2">
+                        <span class="material-symbols-outlined text-[#003366]">info</span> Details
+                    </h3>
+                    <div class="space-y-3 text-sm">
+                        <div class="flex justify-between border-b border-slate-100 pb-2">
+                            <span class="text-slate-500">Status</span>
+                            <span class="font-medium text-emerald-600">Enrolled</span>
+                        </div>
+                        <div class="flex justify-between border-b border-slate-100 pb-2">
+                            <span class="text-slate-500">Platform</span>
+                            <span class="font-medium text-slate-800">SPeCTRUM 3.0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        const API_BASE = "http://localhost:8000";
+
+        document.addEventListener("DOMContentLoaded", async () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const courseId = urlParams.get('id');
+            const courseNameParam = urlParams.get('name');
+
+            if (courseNameParam) {
+                document.getElementById('courseTitle').innerText = courseNameParam;
+            }
+
+            if (!courseId) return;
+
+            try {
+                const response = await fetch(`${API_BASE}/data/course_raw/${courseId}`);
+                const resData = await response.json();
+
+                // Check if content array exists (Fixing the previous issue)
+                if (resData.status === "success" && Array.isArray(resData.data.content)) {
+                    buildDashboard(resData.data.content);
+                } else {
+                    document.getElementById('accordionContainer').innerHTML = `
+                        <div class="text-center py-10 bg-white rounded-xl border border-red-100"><p class="text-red-500">Course content is empty or could not be parsed.</p></div>`;
+                }
+            } catch (error) { console.error("Fetch Error:", error); }
+        });
+
+        function buildDashboard(contentArray) {
+            const container = document.getElementById('accordionContainer');
+            container.innerHTML = ''; 
+            
+            let attendanceFound = false;
+
+            // Step 1: Group the flat JSON array into folders by "section"
+            const groupedSections = {};
+            contentArray.forEach(item => {
+                const secName = item.section || "General Information";
+                if (!groupedSections[secName]) groupedSections[secName] = [];
+                groupedSections[secName].push(item);
+            });
+
+            // Step 2: Build the UI for each grouped section
+            Object.keys(groupedSections).forEach((secName, index) => {
+                let modulesHTML = '';
+                
+                groupedSections[secName].forEach(mod => {
+                    // Uses 'title' instead of 'name' based on your JSON structure!
+                    const title = mod.title || mod.name || "Untitled Resource";
+                    const type = mod.type || "link";
+                    const url = mod.url || "#";
+
+                    // Check for Attendance globally across all modules
+                    if ((title.toLowerCase().includes('attendance') || type === 'attendance') && url !== "#" && !attendanceFound) {
+                        document.getElementById('attendanceCard').classList.remove('hidden');
+                        document.getElementById('attendanceLink').href = url;
+                        attendanceFound = true;
+                    }
+
+                    // Determine Icon
+                    let icon = "description"; 
+                    if (type === "assign" || title.toLowerCase().includes("task")) icon = "assignment";
+                    if (type === "quiz" || title.toLowerCase().includes("quiz")) icon = "quiz";
+                    if (type === "forum" || type === "page") icon = "forum";
+                    if (type === "folder" || type === "wiki") icon = "folder_zip";
+                    if (type === "url" || type === "resource") icon = "link";
+
+                    modulesHTML += `
+                        <a href="${url}" target="_blank" class="flex items-start gap-3 p-3 hover:bg-white rounded-lg transition-colors group/item mb-1">
+                            <div class="mt-0.5 text-blue-500 group-hover/item:text-[#003366] transition-colors">
+                                <span class="material-symbols-outlined text-[20px]">${icon}</span>
+                            </div>
+                            <div class="flex-1">
+                                <p class="text-sm font-medium text-slate-700 group-hover/item:text-[#003366] transition-colors">${title}</p>
+                                ${type ? `<span class="text-xs text-slate-400 capitalize mt-0.5 inline-block border border-slate-200 px-1.5 py-0.5 rounded bg-slate-50">${type}</span>` : ''}
+                            </div>
+                        </a>
+                    `;
+                });
+
+                // Create Accordion details element
+                const isOpen = index === 0 ? "open" : "";
+                const accordionHTML = `
+                    <details class="group bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden mb-4" ${isOpen}>
+                        <summary class="flex justify-between items-center font-semibold text-slate-800 cursor-pointer p-5 hover:bg-slate-50 transition-colors select-none">
+                            <span>${secName}</span>
+                            <span class="transition transform group-open:rotate-180 text-slate-400">
+                                <span class="material-symbols-outlined">expand_more</span>
+                            </span>
+                        </summary>
+                        <div class="p-4 border-t border-slate-100 bg-slate-50/50">
+                            ${modulesHTML}
+                        </div>
+                    </details>
+                `;
+                container.innerHTML += accordionHTML;
+            });
+        }
+    </script>
+</body>
+</html>

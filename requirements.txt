@@ -1,0 +1,17 @@
+# Web Scraping & Automation
+selenium>=4.0.0
+webdriver-manager>=4.0.0
+beautifulsoup4>=4.9.0
+
+# Web Framework
+fastapi>=0.104.0
+uvicorn>=0.24.0
+python-multipart>=0.0.6
+
+# Google AI & GenAI APIs
+google-genai>=0.3.0
+google-generativeai>=0.4.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0

@@ -33,12 +33,9 @@
 
 <div class="flex max-w-[1440px] mx-auto h-[calc(100vh-64px)] overflow-hidden">
     <aside class="bg-white/60 backdrop-blur-xl h-screen w-64 border-r border-slate-200/40 fixed left-0 top-0 pt-24 shadow-xl hidden md:flex flex-col py-6 space-y-2 z-40">
-        <div class="px-6 pb-4 mb-4 border-b border-slate-200/40">
-            <div class="flex items-center gap-3 mb-2"><span class="material-symbols-outlined text-2xl text-[#003366]">school</span><h2 class="text-xl font-bold text-[#003366]">ScholarPortal</h2></div>
-        </div>
-        <nav class="flex-1 px-3 space-y-1">
+        <nav class="flex-1 px-3 space-y-1 mt-4">
             <a href="dashboard.html" class="flex items-center gap-3 px-3 py-2.5 text-slate-500 hover:bg-slate-100/50 rounded-lg mx-2 my-1 text-sm font-medium"><span class="material-symbols-outlined text-[20px]">dashboard</span>Dashboard</a>
-            <a href="course_hub.html" class="flex items-center gap-3 px-3 py-2.5 text-[#003366] bg-slate-100/80 rounded-lg mx-2 my-1 text-sm font-semibold"><span class="material-symbols-outlined text-[20px]">grid_view</span>Course Grid</a>
+            <a href="course_hub.html" class="flex items-center gap-3 px-3 py-2.5 text-[#003366] bg-blue-50/80 rounded-lg mx-2 my-1 text-sm font-semibold"><span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">grid_view</span>Course Grid</a>
             <a href="ai_chat.html" class="flex items-center gap-3 px-3 py-2.5 text-slate-500 hover:bg-slate-100/50 rounded-lg mx-2 my-1 text-sm font-medium"><span class="material-symbols-outlined text-[20px]">search</span>Smart Search</a>
         </nav>
         <div class="px-6 py-6 border-t border-slate-200/40 mt-auto">
@@ -53,7 +50,7 @@
             <header class="mb-10 flex justify-between items-end gap-6">
                 <div>
                     <h1 class="text-3xl font-bold text-slate-800 mb-2">Curriculum Hub</h1>
-                    <p class="text-slate-500 max-w-2xl text-lg">Access your enrolled modules and review syllabi.</p>
+                    <p class="text-slate-500 max-w-2xl text-lg">Access your enrolled modules and course materials.</p>
                 </div>
             </header>
             
@@ -70,16 +67,13 @@
         const syncBtn = document.getElementById('syncBtn');
         const icon = syncBtn.querySelector('.material-symbols-outlined');
         const text = document.getElementById('syncText');
-        
         syncBtn.disabled = true;
         icon.classList.add('animate-spin');
         text.innerText = "Syncing...";
-
         try {
             const res = await fetch(`${API_BASE}/sync`);
             if (res.ok) { loadCourses(); }
-        } catch (err) { alert("Backend offline."); }
-        
+        } catch (err) {}
         icon.classList.remove('animate-spin');
         syncBtn.disabled = false;
         text.innerText = "Sync Now";
@@ -94,22 +88,31 @@
             if (data.courses && data.courses.length > 0) {
                 grid.innerHTML = ''; 
                 data.courses.forEach(course => {
+                    
+                    // Regex Magic to strip "Faculty of..." and get just "WIA1005 NETWORK..."
+                    let cleanName = course.course_name;
+                    const match = cleanName.match(/([A-Z]{3,4}\s?\d{4}.*)/);
+                    if (match) cleanName = match[1];
+
                     const article = document.createElement('article');
-                    article.className = "glass-panel rounded-2xl overflow-hidden flex flex-col hover:apple-shadow transition-shadow duration-300 group cursor-pointer";
+                    article.className = "glass-panel rounded-2xl overflow-hidden flex flex-col hover:apple-shadow transition-shadow duration-300 group cursor-pointer border-t-4 border-t-[#003366]";
                     article.innerHTML = `
-                        <div class="h-32 bg-gradient-to-br from-blue-100 to-indigo-50 relative p-6 flex flex-col justify-between">
+                        <div class="h-32 bg-white relative p-6 flex flex-col justify-between">
                             <div class="flex justify-between items-start">
-                                <span class="bg-white/80 backdrop-blur text-xs font-semibold px-2.5 py-1 rounded-full text-[#003366]">${course.course_id}</span>
+                                <span class="bg-blue-50 text-xs font-semibold px-2.5 py-1 rounded-full text-[#003366]">${course.course_id}</span>
                             </div>
-                            <h3 class="text-xl font-bold text-slate-800 leading-tight mt-4">${course.course_name}</h3>
+                            <h3 class="text-[17px] font-bold text-slate-800 leading-tight mt-4 line-clamp-2" title="${cleanName}">${cleanName}</h3>
                         </div>
-                        <div class="p-6 flex-1 flex flex-col">
-                            <div class="flex items-center gap-2 mb-6">
-                                <span class="material-symbols-outlined text-[16px] text-slate-500">visibility</span>
-                                <span class="text-sm text-slate-500">View Course Summary</span>
+                        <div class="p-4 bg-slate-50 border-t border-slate-100 flex-1 flex flex-col">
+                            <div class="flex items-center gap-2">
+                                <span class="material-symbols-outlined text-[16px] text-slate-500">folder_open</span>
+                                <span class="text-xs font-medium text-slate-600">Open Course Detail</span>
                             </div>
                         </div>`;
-                    article.onclick = () => alert(`Opening summary for ${course.course_name}.`);
+                    
+                    article.onclick = () => {
+                        window.location.href = `course_detail.html?id=${course.course_id}&name=${encodeURIComponent(cleanName)}`;
+                    };
                     grid.appendChild(article);
                 });
             } else {
