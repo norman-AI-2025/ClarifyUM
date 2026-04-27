@@ -1,0 +1,439 @@
+{
+    "course_id": "22232",
+    "course_name": "Academy of Malay StudiesGIG1012 PHILOSOPHY AND CURRENT ISSUES",
+    "summary": "",
+    "content": [
+        {
+            "title": "Announcements",
+            "type": "forum",
+            "url": "https://spectrum.um.edu.my/mod/forum/view.php?id=1030260",
+            "section": "General"
+        },
+        {
+            "title": "Bab 1 : Pengenalan",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=789355",
+            "section": "General"
+        },
+        {
+            "title": "Video Topik1 Pengenalan",
+            "type": "url",
+            "url": "https://spectrum.um.edu.my/mod/url/view.php?id=974423",
+            "section": "General"
+        },
+        {
+            "title": "Topik 2: Falsafah Dan Kehidupan",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=518315",
+            "section": "General"
+        },
+        {
+            "title": "Video Topik 2 Falsafah dan Kehidupan",
+            "type": "url",
+            "url": "https://spectrum.um.edu.my/mod/url/view.php?id=974425",
+            "section": "General"
+        },
+        {
+            "title": "Topik 3: Logik dan Metodologi",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=543429",
+            "section": "General"
+        },
+        {
+            "title": "Video Topik 3 Logik dan Metodologi",
+            "type": "url",
+            "url": "https://spectrum.um.edu.my/mod/url/view.php?id=974427",
+            "section": "General"
+        },
+        {
+            "title": "Topik 4: Psikologi dan Sosiologi",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=530192",
+            "section": "General"
+        },
+        {
+            "title": "Video Topik 4 Psikologi",
+            "type": "url",
+            "url": "https://spectrum.um.edu.my/mod/url/view.php?id=986982",
+            "section": "General"
+        },
+        {
+            "title": "Topik 5: Metafizik",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=534765",
+            "section": "General"
+        },
+        {
+            "title": "Video Topik 5 Metafizik",
+            "type": "url",
+            "url": "https://spectrum.um.edu.my/mod/url/view.php?id=986986",
+            "section": "General"
+        },
+        {
+            "title": "Topik 6: Epistemologi",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=535420",
+            "section": "General"
+        },
+        {
+            "title": "Video Topik 6 Epistemologi (A)",
+            "type": "url",
+            "url": "https://spectrum.um.edu.my/mod/url/view.php?id=986987",
+            "section": "General"
+        },
+        {
+            "title": "Video Topik 6 Epistemologi (B)",
+            "type": "url",
+            "url": "https://spectrum.um.edu.my/mod/url/view.php?id=986988",
+            "section": "General"
+        },
+        {
+            "title": "Topik 7: Ideologi",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=542714",
+            "section": "General"
+        },
+        {
+            "title": "Video Topik 7 Ideologi (A)",
+            "type": "url",
+            "url": "https://spectrum.um.edu.my/mod/url/view.php?id=986990",
+            "section": "General"
+        },
+        {
+            "title": "Video Topik 7 Ideologi (B)",
+            "type": "url",
+            "url": "https://spectrum.um.edu.my/mod/url/view.php?id=986991",
+            "section": "General"
+        },
+        {
+            "title": "Topik 8 : Dekolonisasi",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=550660",
+            "section": "General"
+        },
+        {
+            "title": "Video Topik 8 Dekolonisasi",
+            "type": "url",
+            "url": "https://spectrum.um.edu.my/mod/url/view.php?id=986993",
+            "section": "General"
+        },
+        {
+            "title": "Makluman Pelaksanaan Kuliah & Saluran Komunikasi",
+            "type": "forum",
+            "url": "https://spectrum.um.edu.my/mod/forum/view.php?id=968641",
+            "section": "General"
+        },
+        {
+            "title": "OCC 5",
+            "type": "attendance",
+            "url": "https://spectrum.um.edu.my/mod/attendance/view.php?id=836234",
+            "section": "General"
+        },
+        {
+            "title": "OCC 10",
+            "type": "attendance",
+            "url": "https://spectrum.um.edu.my/mod/attendance/view.php?id=1009361",
+            "section": "General"
+        },
+        {
+            "title": "BAB 1: PENGENALAN KEPADA ILMU FALSAFAH",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=516685",
+            "section": "General"
+        },
+        {
+            "title": "Pengenalan Ilmu Falsafah",
+            "type": "hvp",
+            "url": "https://spectrum.um.edu.my/mod/hvp/view.php?id=510306",
+            "section": "General"
+        },
+        {
+            "title": "Falsafah Dalam Kehidupan",
+            "type": "hvp",
+            "url": "https://spectrum.um.edu.my/mod/hvp/view.php?id=510325",
+            "section": "General"
+        },
+        {
+            "title": "Logik & Metodologi",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=367394",
+            "section": "General"
+        },
+        {
+            "title": "Logik dan Metodologi / Seni dan Kaedah Berfikir",
+            "type": "hvp",
+            "url": "https://spectrum.um.edu.my/mod/hvp/view.php?id=510329",
+            "section": "General"
+        },
+        {
+            "title": "Psikologi dan Sosiologi",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=383115",
+            "section": "General"
+        },
+        {
+            "title": "Psikologi Konsep Insan",
+            "type": "hvp",
+            "url": "https://spectrum.um.edu.my/mod/hvp/view.php?id=510332",
+            "section": "General"
+        },
+        {
+            "title": "Metafizik",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=386795",
+            "section": "General"
+        },
+        {
+            "title": "Metafizik",
+            "type": "hvp",
+            "url": "https://spectrum.um.edu.my/mod/hvp/view.php?id=510337",
+            "section": "General"
+        },
+        {
+            "title": "Epistemologi",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=386796",
+            "section": "General"
+        },
+        {
+            "title": "Epistemologi",
+            "type": "hvp",
+            "url": "https://spectrum.um.edu.my/mod/hvp/view.php?id=510340",
+            "section": "General"
+        },
+        {
+            "title": "Ideologi",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=386797",
+            "section": "General"
+        },
+        {
+            "title": "Ideologi Semasa",
+            "type": "hvp",
+            "url": "https://spectrum.um.edu.my/mod/hvp/view.php?id=510344",
+            "section": "General"
+        },
+        {
+            "title": "Dekolonisasi",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=386798",
+            "section": "General"
+        },
+        {
+            "title": "Dekolonisasi Dualisme Cartesian",
+            "type": "hvp",
+            "url": "https://spectrum.um.edu.my/mod/hvp/view.php?id=510342",
+            "section": "General"
+        },
+        {
+            "title": "TEAMS DAN WHATSAPP",
+            "type": "unknown",
+            "url": "https://spectrum.um.edu.my/course/view.php?id=22232&section=11#module-952119",
+            "section": "General"
+        },
+        {
+            "title": "Minggu 2 : 16 MAC 2026 (kelas Asynchronous)",
+            "type": "unknown",
+            "url": "https://spectrum.um.edu.my/course/view.php?id=22232&section=11#module-958034",
+            "section": "General"
+        },
+        {
+            "title": "Maklumat dan Pengenalan Kepada Kursus FIS",
+            "type": "unknown",
+            "url": "https://spectrum.um.edu.my/course/view.php?id=22232&section=11#module-900163",
+            "section": "General"
+        },
+        {
+            "title": "BUKTI KETIDAKHADIRAN KULIAH (SURAT PERLEPASAN/SIJIL SAKIT DAN LAIN-LAIN",
+            "type": "unknown",
+            "url": "https://spectrum.um.edu.my/course/view.php?id=22232&section=11#module-816432",
+            "section": "General"
+        },
+        {
+            "title": "OCC 4 (KEHADIRAN)",
+            "type": "unknown",
+            "url": "https://spectrum.um.edu.my/course/view.php?id=22232&section=11#module-1065501",
+            "section": "General"
+        },
+        {
+            "title": "OCC 9 KEHADIRAN",
+            "type": "unknown",
+            "url": "https://spectrum.um.edu.my/course/view.php?id=22232&section=11#module-1065502",
+            "section": "General"
+        },
+        {
+            "title": "NOTA BAB 1 PENGENALAN",
+            "type": "unknown",
+            "url": "https://spectrum.um.edu.my/course/view.php?id=22232&section=11#module-903557",
+            "section": "General"
+        },
+        {
+            "title": "BAB 2",
+            "type": "unknown",
+            "url": "https://spectrum.um.edu.my/course/view.php?id=22232&section=11#module-908499",
+            "section": "General"
+        },
+        {
+            "title": "NOTA BAB 3",
+            "type": "unknown",
+            "url": "https://spectrum.um.edu.my/course/view.php?id=22232&section=11#module-912246",
+            "section": "General"
+        },
+        {
+            "title": "NOTA BAB 4",
+            "type": "unknown",
+            "url": "https://spectrum.um.edu.my/course/view.php?id=22232&section=11#module-922242",
+            "section": "General"
+        },
+        {
+            "title": "NOTA BAB 5",
+            "type": "unknown",
+            "url": "https://spectrum.um.edu.my/course/view.php?id=22232&section=11#module-922244",
+            "section": "General"
+        },
+        {
+            "title": "NOTA BAB 6",
+            "type": "unknown",
+            "url": "https://spectrum.um.edu.my/course/view.php?id=22232&section=11#module-930246",
+            "section": "General"
+        },
+        {
+            "title": "NOTA BAB 7",
+            "type": "unknown",
+            "url": "https://spectrum.um.edu.my/course/view.php?id=22232&section=11#module-939090",
+            "section": "General"
+        },
+        {
+            "title": "NOTA BAB 8",
+            "type": "unknown",
+            "url": "https://spectrum.um.edu.my/course/view.php?id=22232&section=11#module-939092",
+            "section": "General"
+        },
+        {
+            "title": "Makluman Pautan WA group dan  MS Team",
+            "type": "page",
+            "url": "https://spectrum.um.edu.my/mod/page/view.php?id=964969",
+            "section": "General"
+        },
+        {
+            "title": "Kehadiran OCC 1 (Sem. 2, 25/26)",
+            "type": "attendance",
+            "url": "https://spectrum.um.edu.my/mod/attendance/view.php?id=1069491",
+            "section": "General"
+        },
+        {
+            "title": "Kehadiran OCC 6 (Sem. 2, 25/26)",
+            "type": "attendance",
+            "url": "https://spectrum.um.edu.my/mod/attendance/view.php?id=1069677",
+            "section": "General"
+        },
+        {
+            "title": "Maklumat Pelaksanaan Kursus",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=965043",
+            "section": "General"
+        },
+        {
+            "title": "Pautan MS Teams dan WA Group",
+            "type": "page",
+            "url": "https://spectrum.um.edu.my/mod/page/view.php?id=1066372",
+            "section": "General"
+        },
+        {
+            "title": "Kehadiran OCC 3",
+            "type": "attendance",
+            "url": "https://spectrum.um.edu.my/mod/attendance/view.php?id=1066374",
+            "section": "General"
+        },
+        {
+            "title": "Kehadiran OCC 8",
+            "type": "attendance",
+            "url": "https://spectrum.um.edu.my/mod/attendance/view.php?id=1069429",
+            "section": "General"
+        },
+        {
+            "title": "Makluman Pelaksanaan Kursus",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1069737",
+            "section": "General"
+        },
+        {
+            "title": "WA Group dan TEAM OCC 8 (RABU 5-7pm)",
+            "type": "page",
+            "url": "https://spectrum.um.edu.my/mod/page/view.php?id=1008319",
+            "section": "General"
+        },
+        {
+            "title": "Kehadiran Pelajar OCC 8 (Sem. 1, 25/26)",
+            "type": "attendance",
+            "url": "https://spectrum.um.edu.my/mod/attendance/view.php?id=1010133",
+            "section": "General"
+        },
+        {
+            "title": "MAKLUMAN MARKAH KUIZ 1 - OCC 8",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1051675",
+            "section": "General"
+        },
+        {
+            "title": "MAKLUMAN MARKAH KUIZ 2 - OCC 8",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1061055",
+            "section": "General"
+        },
+        {
+            "title": "MAKLUMAN MARKAH KUIZ 2 OKU - OCC 8",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1061056",
+            "section": "General"
+        },
+        {
+            "title": "Makluman Markah Keseluruhan Kuiz - OCC 8",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1063697",
+            "section": "General"
+        },
+        {
+            "title": "MAKLUMAN!!!Seperti dimaklumkan dalam Whatsapp Grou...",
+            "type": "unknown",
+            "url": "https://spectrum.um.edu.my/course/view.php?id=22232&section=50#module-1014802",
+            "section": "General"
+        },
+        {
+            "title": "Asalamualaikum dan salam sejahtera,Salam perkenala...",
+            "type": "unknown",
+            "url": "https://spectrum.um.edu.my/course/view.php?id=22232&section=50#module-1009466",
+            "section": "General"
+        },
+        {
+            "title": "Video Penerangan Maklumat Kursus GIG 1012 Semester 2 2025/2026",
+            "type": "folder",
+            "url": "https://spectrum.um.edu.my/mod/folder/view.php?id=1069541",
+            "section": "General"
+        },
+        {
+            "title": "Maklumat Pelaksanaan Kursus",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=957764",
+            "section": "General"
+        },
+        {
+            "title": "NOTA KULIAH MINGGUAN",
+            "type": "folder",
+            "url": "https://spectrum.um.edu.my/mod/folder/view.php?id=962594",
+            "section": "General"
+        },
+        {
+            "title": "Attendance OCC 2 SEM 2 2025/2026",
+            "type": "attendance",
+            "url": "https://spectrum.um.edu.my/mod/attendance/view.php?id=1069834",
+            "section": "General"
+        },
+        {
+            "title": "Attendance OCC 7 SEM 2 2025/2026",
+            "type": "attendance",
+            "url": "https://spectrum.um.edu.my/mod/attendance/view.php?id=1070066",
+            "section": "General"
+        }
+    ]
+}

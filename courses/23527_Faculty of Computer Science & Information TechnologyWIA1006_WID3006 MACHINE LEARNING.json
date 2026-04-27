@@ -1,0 +1,235 @@
+{
+    "course_id": "23527",
+    "course_name": "Faculty of Computer Science & Information TechnologyWIA1006/WID3006 MACHINE LEARNING",
+    "summary": "",
+    "content": [
+        {
+            "title": "Announcement 2025/2026",
+            "type": "forum",
+            "url": "https://spectrum.um.edu.my/mod/forum/view.php?id=1067151",
+            "section": "General"
+        },
+        {
+            "title": "CLASS TIMETABLE",
+            "type": "unknown",
+            "url": "#module-619561",
+            "section": "General"
+        },
+        {
+            "title": "Schedule",
+            "type": "unknown",
+            "url": "#module-719242",
+            "section": "General"
+        },
+        {
+            "title": "Label",
+            "type": "unknown",
+            "url": "#module-583105",
+            "section": "General"
+        },
+        {
+            "title": "Attendance (Lecture Session) - Dr. Saw Shier Nee",
+            "type": "unknown",
+            "url": "#module-1069004",
+            "section": "General"
+        },
+        {
+            "title": "Attendance (Lecture Session) - Dr. Shahreeza",
+            "type": "attendance",
+            "url": "https://spectrum.um.edu.my/mod/attendance/view.php?id=1069039",
+            "section": "General"
+        },
+        {
+            "title": "Attendance (Lecture Session) - Dr. Nurul",
+            "type": "unknown",
+            "url": "#module-1069040",
+            "section": "General"
+        },
+        {
+            "title": "Attendance (Tutorial Session) -  OCC1 (SK)",
+            "type": "unknown",
+            "url": "#module-1069610",
+            "section": "General"
+        },
+        {
+            "title": "Attendance (Tutorial Session) -  OCC2 (Dr. Narsimlu Kemsaram)",
+            "type": "unknown",
+            "url": "#module-1070573",
+            "section": "General"
+        },
+        {
+            "title": "Attendance (Tutorial Session) - OCC3 (NRJ)",
+            "type": "unknown",
+            "url": "#module-1070581",
+            "section": "General"
+        },
+        {
+            "title": "Attendance (Tutorial Session) - OCC4 (HWL)",
+            "type": "unknown",
+            "url": "#module-1070584",
+            "section": "General"
+        },
+        {
+            "title": "Attendance (Tutorial Session) - OCC5 (Dr. Narsimlu Kemsaram)",
+            "type": "unknown",
+            "url": "#module-1070587",
+            "section": "General"
+        },
+        {
+            "title": "Attendance (Tutorial Session) - OCC6 (SK)",
+            "type": "unknown",
+            "url": "#module-1070592",
+            "section": "General"
+        },
+        {
+            "title": "Attendance (Tutorial Session) - OCC7 (SK)",
+            "type": "attendance",
+            "url": "https://spectrum.um.edu.my/mod/attendance/view.php?id=1070595",
+            "section": "General"
+        },
+        {
+            "title": "Attendance (Tutorial Session) - OCC8 (Dr. Narsimlu Kemsaram)",
+            "type": "unknown",
+            "url": "#module-1070601",
+            "section": "General"
+        },
+        {
+            "title": "Attendance (Tutorial Session) - OCC9 (Dr. Narsimlu Kemsaram)",
+            "type": "unknown",
+            "url": "#module-1070608",
+            "section": "General"
+        },
+        {
+            "title": "Attendance (Tutorial Session) - OCC10 (Dr. Narsimlu Kemsaram)",
+            "type": "unknown",
+            "url": "#module-1070611",
+            "section": "General"
+        },
+        {
+            "title": "Attendance (Tutorial Session) - OCC11 (SK)",
+            "type": "unknown",
+            "url": "#module-1070614",
+            "section": "General"
+        },
+        {
+            "title": "Lecture Slides - Week 1: Course Introduction + Intro to ML",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1070525",
+            "section": "General"
+        },
+        {
+            "title": "Video - Introduction to Machine Learning",
+            "type": "page",
+            "url": "https://spectrum.um.edu.my/mod/page/view.php?id=586624",
+            "section": "General"
+        },
+        {
+            "title": "Tutorial Week 1 - Introduction to Machine Learning",
+            "type": "quiz",
+            "url": "https://spectrum.um.edu.my/mod/quiz/view.php?id=1070495",
+            "section": "General"
+        },
+        {
+            "title": "Week 1 Tutorial - Introduction to Machine Learning",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1084129",
+            "section": "General"
+        },
+        {
+            "title": "Workshop Reflection Submission (Continuous Assessment - 4%)",
+            "type": "assign",
+            "url": "https://spectrum.um.edu.my/mod/assign/view.php?id=1074104",
+            "section": "General"
+        },
+        {
+            "title": "Lecture Slides - Week 3: Data Preprocessing + Regression Analysis",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1076599",
+            "section": "General"
+        },
+        {
+            "title": "Tutorial Week 3 (a) - Data Pre-processing",
+            "type": "folder",
+            "url": "https://spectrum.um.edu.my/mod/folder/view.php?id=1076600",
+            "section": "General"
+        },
+        {
+            "title": "Tutorial Week 3 (b) - Regression Analysis",
+            "type": "quiz",
+            "url": "https://spectrum.um.edu.my/mod/quiz/view.php?id=1079071",
+            "section": "General"
+        },
+        {
+            "title": "Week 3 Tutorial - Data Preprocessing and Regression Analysis",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1084131",
+            "section": "General"
+        },
+        {
+            "title": "Week 4 - Decision Tree",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1082021",
+            "section": "General"
+        },
+        {
+            "title": "Decision Tree - Video",
+            "type": "page",
+            "url": "https://spectrum.um.edu.my/mod/page/view.php?id=749559",
+            "section": "General"
+        },
+        {
+            "title": "Tutorial Week 4 - Decision Tree",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1084089",
+            "section": "General"
+        },
+        {
+            "title": "WIA1006 WID3006 Group Assignment 2526",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1085814",
+            "section": "General"
+        },
+        {
+            "title": "Group Project Submission_2025/2026",
+            "type": "assign",
+            "url": "https://spectrum.um.edu.my/mod/assign/view.php?id=1085815",
+            "section": "General"
+        },
+        {
+            "title": "Week 5 Neural Network",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1085712",
+            "section": "General"
+        },
+        {
+            "title": "Tutorial Week 5 -  Neural Network",
+            "type": "assign",
+            "url": "https://spectrum.um.edu.my/mod/assign/view.php?id=1085717",
+            "section": "General"
+        },
+        {
+            "title": "CASE STUDY",
+            "type": "page",
+            "url": "https://spectrum.um.edu.my/mod/page/view.php?id=1088832",
+            "section": "General"
+        },
+        {
+            "title": "Quiz - In-Person Assessment (20%)",
+            "type": "page",
+            "url": "https://spectrum.um.edu.my/mod/page/view.php?id=1088834",
+            "section": "General"
+        },
+        {
+            "title": "Week 7 - Bayes Theorem",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1091369",
+            "section": "General"
+        },
+        {
+            "title": "Tutorial Week 7 - Bayes Theorem",
+            "type": "assign",
+            "url": "https://spectrum.um.edu.my/mod/assign/view.php?id=1091373",
+            "section": "General"
+        }
+    ]
+}

@@ -1,0 +1,373 @@
+{
+    "course_id": "126",
+    "course_name": "Faculty of Computer Science & Information TechnologyWIA1003 COMPUTER SYSTEM ARCHITECTURE",
+    "summary": "",
+    "content": [
+        {
+            "title": "Attendance",
+            "type": "attendance",
+            "url": "https://spectrum.um.edu.my/mod/attendance/view.php?id=224628",
+            "section": "General"
+        },
+        {
+            "title": "Announcement Session 2025/2026, semester 2",
+            "type": "forum",
+            "url": "https://spectrum.um.edu.my/mod/forum/view.php?id=1065547",
+            "section": "General"
+        },
+        {
+            "title": "Online Lecture Link",
+            "type": "unknown",
+            "url": "#module-954230",
+            "section": "General"
+        },
+        {
+            "title": "Time Table CSA Student",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1065552",
+            "section": "General"
+        },
+        {
+            "title": "T4 Live Session OCC 11, 12 and 13",
+            "type": "unknown",
+            "url": "#module-976041",
+            "section": "General"
+        },
+        {
+            "title": "Course Pro Forma",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1072563",
+            "section": "General"
+        },
+        {
+            "title": "Link for Lab Notes",
+            "type": "page",
+            "url": "https://spectrum.um.edu.my/mod/page/view.php?id=77230",
+            "section": "General"
+        },
+        {
+            "title": "KIP irvine Resources",
+            "type": "url",
+            "url": "https://spectrum.um.edu.my/mod/url/view.php?id=184391",
+            "section": "General"
+        },
+        {
+            "title": "Visual Studio Community Version (Free)",
+            "type": "url",
+            "url": "https://spectrum.um.edu.my/mod/url/view.php?id=77231",
+            "section": "General"
+        },
+        {
+            "title": "Visual Studio Enterprise from UM Microsoft Hub",
+            "type": "url",
+            "url": "https://spectrum.um.edu.my/mod/url/view.php?id=77232",
+            "section": "General"
+        },
+        {
+            "title": "Content for Lab session 1",
+            "type": "unknown",
+            "url": "#module-452621",
+            "section": "General"
+        },
+        {
+            "title": "Demo video on the lab setup",
+            "type": "url",
+            "url": "https://spectrum.um.edu.my/mod/url/view.php?id=450926",
+            "section": "General"
+        },
+        {
+            "title": "Lab CSA 1 (Part 1)",
+            "type": "url",
+            "url": "https://spectrum.um.edu.my/mod/url/view.php?id=296397",
+            "section": "General"
+        },
+        {
+            "title": "Lab CSA 1 (Part 2)",
+            "type": "url",
+            "url": "https://spectrum.um.edu.my/mod/url/view.php?id=452118",
+            "section": "General"
+        },
+        {
+            "title": "Content for Lab session 2",
+            "type": "unknown",
+            "url": "#module-452624",
+            "section": "General"
+        },
+        {
+            "title": "Lab CSA 2 (Part 1)",
+            "type": "url",
+            "url": "https://spectrum.um.edu.my/mod/url/view.php?id=296395",
+            "section": "General"
+        },
+        {
+            "title": "Lab CSA 2 (Part 2)",
+            "type": "url",
+            "url": "https://spectrum.um.edu.my/mod/url/view.php?id=296476",
+            "section": "General"
+        },
+        {
+            "title": "Power point slide material",
+            "type": "unknown",
+            "url": "#module-452638",
+            "section": "General"
+        },
+        {
+            "title": "Lab 1",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=77198",
+            "section": "General"
+        },
+        {
+            "title": "Lab 2",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=77205",
+            "section": "General"
+        },
+        {
+            "title": "Lab 3",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=266516",
+            "section": "General"
+        },
+        {
+            "title": "Lab 4",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=77214",
+            "section": "General"
+        },
+        {
+            "title": "Lab 5",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=77225",
+            "section": "General"
+        },
+        {
+            "title": "Lab 6",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=77248",
+            "section": "General"
+        },
+        {
+            "title": "Lab 7",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=77249",
+            "section": "General"
+        },
+        {
+            "title": "Lab Problems and Solutions (Anyone can edit... I need your help)",
+            "type": "wiki",
+            "url": "https://spectrum.um.edu.my/mod/wiki/view.php?id=299771",
+            "section": "General"
+        },
+        {
+            "title": "Lab AssignmentPlease complete the lab assignment a...",
+            "type": "unknown",
+            "url": "#module-452997",
+            "section": "General"
+        },
+        {
+            "title": "Mid Term Exam will be conducted as below: Dat...",
+            "type": "unknown",
+            "url": "#module-863472",
+            "section": "General"
+        },
+        {
+            "title": "Intro Lectures",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1065585",
+            "section": "General"
+        },
+        {
+            "title": "Week 1 Introduction",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=77195",
+            "section": "General"
+        },
+        {
+            "title": "Decimal Computer",
+            "type": "unknown",
+            "url": "#module-712351",
+            "section": "General"
+        },
+        {
+            "title": "Tutorial 1",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=77196",
+            "section": "General"
+        },
+        {
+            "title": "Tutorial 1 Submission",
+            "type": "assign",
+            "url": "https://spectrum.um.edu.my/mod/assign/view.php?id=1065583",
+            "section": "General"
+        },
+        {
+            "title": "CPU Performance",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=77202",
+            "section": "General"
+        },
+        {
+            "title": "Tutorial 2",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1065636",
+            "section": "General"
+        },
+        {
+            "title": "Tutorial 2 Submission",
+            "type": "assign",
+            "url": "https://spectrum.um.edu.my/mod/assign/view.php?id=1065588",
+            "section": "General"
+        },
+        {
+            "title": "CPU and Bus  System",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=77204",
+            "section": "General"
+        },
+        {
+            "title": "CPU and Bus System (E-learning Video)",
+            "type": "url",
+            "url": "https://spectrum.um.edu.my/mod/url/view.php?id=446035",
+            "section": "General"
+        },
+        {
+            "title": "Tutorial 3",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1065634",
+            "section": "General"
+        },
+        {
+            "title": "Tutorial 3 submission",
+            "type": "assign",
+            "url": "https://spectrum.um.edu.my/mod/assign/view.php?id=1065591",
+            "section": "General"
+        },
+        {
+            "title": "PCI and PCIe Bus\nhttps://www.youtube.com/watch?v=...",
+            "type": "unknown",
+            "url": "#module-236377",
+            "section": "General"
+        },
+        {
+            "title": "Quickpath Interconnection\nhttps://www.youtube.com...",
+            "type": "unknown",
+            "url": "#module-236385",
+            "section": "General"
+        },
+        {
+            "title": "Cache",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=249942",
+            "section": "General"
+        },
+        {
+            "title": "Video on Cache Mapping (Direct, Associative, Full Associative)",
+            "type": "url",
+            "url": "https://spectrum.um.edu.my/mod/url/view.php?id=450687",
+            "section": "General"
+        },
+        {
+            "title": "Mapping Function Example",
+            "type": "folder",
+            "url": "https://spectrum.um.edu.my/mod/folder/view.php?id=105489",
+            "section": "General"
+        },
+        {
+            "title": "Tutorial 4",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1065631",
+            "section": "General"
+        },
+        {
+            "title": "Tutorial 4 Submission",
+            "type": "assign",
+            "url": "https://spectrum.um.edu.my/mod/assign/view.php?id=1065605",
+            "section": "General"
+        },
+        {
+            "title": "Mapping Example",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=967827",
+            "section": "General"
+        },
+        {
+            "title": "Internal Memory",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=260954",
+            "section": "General"
+        },
+        {
+            "title": "Tutorial Internal Memory",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=428208",
+            "section": "General"
+        },
+        {
+            "title": "Tutorial 5 Submission (Internal Memory)",
+            "type": "assign",
+            "url": "https://spectrum.um.edu.my/mod/assign/view.php?id=1065609",
+            "section": "General"
+        },
+        {
+            "title": "How to Read, Erase, & Write EProm EEProm Chips...",
+            "type": "unknown",
+            "url": "#module-77219",
+            "section": "General"
+        },
+        {
+            "title": "Erasing UV-EPROM in five seconds.",
+            "type": "unknown",
+            "url": "#module-77220",
+            "section": "General"
+        },
+        {
+            "title": "UV EPROM Datasheet",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=77221",
+            "section": "General"
+        },
+        {
+            "title": "Flash Memory\nhttps://www.youtube.com/watch?v=ELl3...",
+            "type": "unknown",
+            "url": "#module-255155",
+            "section": "General"
+        },
+        {
+            "title": "External Memory",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=295467",
+            "section": "General"
+        },
+        {
+            "title": "External Memory (E-learning Video)",
+            "type": "url",
+            "url": "https://spectrum.um.edu.my/mod/url/view.php?id=277280",
+            "section": "General"
+        },
+        {
+            "title": "Tutorial 6",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1065630",
+            "section": "General"
+        },
+        {
+            "title": "Tutorial 6 Submission (External Memory)",
+            "type": "assign",
+            "url": "https://spectrum.um.edu.my/mod/assign/view.php?id=1065610",
+            "section": "General"
+        },
+        {
+            "title": "example",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=197784",
+            "section": "General"
+        },
+        {
+            "title": "Why the Future of Data Storage is (Still) Magnetic Tape",
+            "type": "url",
+            "url": "https://spectrum.um.edu.my/mod/url/view.php?id=276947",
+            "section": "General"
+        }
+    ]
+}

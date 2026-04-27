@@ -1,0 +1,397 @@
+{
+    "course_id": "147",
+    "course_name": "Faculty of Computer Science & Information TechnologyWIA1005 NETWORK TECHNOLOGY FOUNDATION",
+    "summary": "",
+    "content": [
+        {
+            "title": "List of students that have not completed NetAcad Registration",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1091822",
+            "section": "General"
+        },
+        {
+            "title": "Network Academy Registration (List of students that register only 1 course)",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1091821",
+            "section": "General"
+        },
+        {
+            "title": "Course Pro Forma",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=576727",
+            "section": "General"
+        },
+        {
+            "title": "Network Academy Registration",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1064736",
+            "section": "General"
+        },
+        {
+            "title": "CCNA: Introduction to Networks (Course Enrollment)",
+            "type": "url",
+            "url": "https://spectrum.um.edu.my/mod/url/view.php?id=1005614",
+            "section": "General"
+        },
+        {
+            "title": "CCNA: Switching, Routing, and Wireless Essentials (Course Enrollment)",
+            "type": "url",
+            "url": "https://spectrum.um.edu.my/mod/url/view.php?id=1034861",
+            "section": "General"
+        },
+        {
+            "title": "Packet Tracer (Software)",
+            "type": "wiki",
+            "url": "https://spectrum.um.edu.my/mod/wiki/view.php?id=576598",
+            "section": "General"
+        },
+        {
+            "title": "Packet Tracer 9.0.0 (Download)",
+            "type": "url",
+            "url": "https://spectrum.um.edu.my/mod/url/view.php?id=576599",
+            "section": "General"
+        },
+        {
+            "title": "Packet Tracer Lab Materials (Download)",
+            "type": "url",
+            "url": "https://spectrum.um.edu.my/mod/url/view.php?id=1005264",
+            "section": "General"
+        },
+        {
+            "title": "Networking Abbreviations",
+            "type": "glossary",
+            "url": "https://spectrum.um.edu.my/mod/glossary/view.php?id=576597",
+            "section": "General"
+        },
+        {
+            "title": "Cisco CLI Quick Reference Guide",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1005629",
+            "section": "General"
+        },
+        {
+            "title": "LECTURE ATTENDANCE OCC 7 - OCC 13",
+            "type": "attendance",
+            "url": "https://spectrum.um.edu.my/mod/attendance/view.php?id=1066759",
+            "section": "General"
+        },
+        {
+            "title": "LECTURE ATTENDANCE OCC 14 - OCC 15",
+            "type": "unknown",
+            "url": "#module-1068673",
+            "section": "General"
+        },
+        {
+            "title": "Telegram Group (OCC 7 - OCC 13)",
+            "type": "url",
+            "url": "https://spectrum.um.edu.my/mod/url/view.php?id=1066819",
+            "section": "General"
+        },
+        {
+            "title": "Telegram Groups",
+            "type": "page",
+            "url": "https://spectrum.um.edu.my/mod/page/view.php?id=1077729",
+            "section": "General"
+        },
+        {
+            "title": "Online Lab (Week 7)",
+            "type": "page",
+            "url": "https://spectrum.um.edu.my/mod/page/view.php?id=1077767",
+            "section": "General"
+        },
+        {
+            "title": "Lab Attendance",
+            "type": "attendance",
+            "url": "https://spectrum.um.edu.my/mod/attendance/view.php?id=1078323",
+            "section": "General"
+        },
+        {
+            "title": "Course Overview",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1068642",
+            "section": "General"
+        },
+        {
+            "title": "Chapter 1 Network Communication",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1005504",
+            "section": "General"
+        },
+        {
+            "title": "Chapter 1 Revision",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1005505",
+            "section": "General"
+        },
+        {
+            "title": "Chapter 2 Network Protocols and Network Operating Systems",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1005620",
+            "section": "General"
+        },
+        {
+            "title": "Chapter 3 Network Access and Ethernet",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1005621",
+            "section": "General"
+        },
+        {
+            "title": "Chapter 2 Revision",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1005622",
+            "section": "General"
+        },
+        {
+            "title": "Chapter 3 Revision",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1005623",
+            "section": "General"
+        },
+        {
+            "title": "ITN 2.5.5 Packet Tracer - Configure Initial Switch Settings",
+            "type": "lesson",
+            "url": "https://spectrum.um.edu.my/mod/lesson/view.php?id=1005624",
+            "section": "General"
+        },
+        {
+            "title": "ITN 2.7.6 Packet Tracer - Implement Basic Connectivity",
+            "type": "lesson",
+            "url": "https://spectrum.um.edu.my/mod/lesson/view.php?id=1005626",
+            "section": "General"
+        },
+        {
+            "title": "ITN 4.6.5 Packet Tracer - Connect a Wired and Wireless LAN",
+            "type": "lesson",
+            "url": "https://spectrum.um.edu.my/mod/lesson/view.php?id=1005640",
+            "section": "General"
+        },
+        {
+            "title": "ITN 4.7.2 Packet Tracer - Connect the Physical Layer",
+            "type": "lesson",
+            "url": "https://spectrum.um.edu.my/mod/lesson/view.php?id=1064904",
+            "section": "General"
+        },
+        {
+            "title": "ITN 10.3.4 Packet Tracer - Connect a Router to a LAN",
+            "type": "lesson",
+            "url": "https://spectrum.um.edu.my/mod/lesson/view.php?id=1005642",
+            "section": "General"
+        },
+        {
+            "title": "Chapter 4 Network and Transport Layer",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1005631",
+            "section": "General"
+        },
+        {
+            "title": "Chapter 4 Revision",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1005636",
+            "section": "General"
+        },
+        {
+            "title": "ITN 10.3.5 Packet Tracer - Troubleshoot Default Gateway Issues",
+            "type": "lesson",
+            "url": "https://spectrum.um.edu.my/mod/lesson/view.php?id=1005643",
+            "section": "General"
+        },
+        {
+            "title": "Lab Task 1 (5%)",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1081738",
+            "section": "General"
+        },
+        {
+            "title": "Chapter 5 IPv4",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1005632",
+            "section": "General"
+        },
+        {
+            "title": "Chapter 5 Revision",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1005637",
+            "section": "General"
+        },
+        {
+            "title": "ITN 11.7.5 Packet Tracer - Subnetting Scenario",
+            "type": "lesson",
+            "url": "https://spectrum.um.edu.my/mod/lesson/view.php?id=1005646",
+            "section": "General"
+        },
+        {
+            "title": "ITN 11.9.3 Packet Tracer - VLSM Design and Implementation Practice",
+            "type": "lesson",
+            "url": "https://spectrum.um.edu.my/mod/lesson/view.php?id=1005647",
+            "section": "General"
+        },
+        {
+            "title": "Chapter 6 IPv6",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1005634",
+            "section": "General"
+        },
+        {
+            "title": "Chapter 6 Revision",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1005638",
+            "section": "General"
+        },
+        {
+            "title": "ITN 12.6.6 Packet Tracer - Configure IPv6 Addressing",
+            "type": "lesson",
+            "url": "https://spectrum.um.edu.my/mod/lesson/view.php?id=1005649",
+            "section": "General"
+        },
+        {
+            "title": "Lab Task 2 (5%)",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1088960",
+            "section": "General"
+        },
+        {
+            "title": "Chapter 7 Application Layer",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1005635",
+            "section": "General"
+        },
+        {
+            "title": "Chapter 8 Switching Concept",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1005656",
+            "section": "General"
+        },
+        {
+            "title": "Chapter 7 Revision",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1005639",
+            "section": "General"
+        },
+        {
+            "title": "Chapter 8 Revision",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1005663",
+            "section": "General"
+        },
+        {
+            "title": "App Layer Packet Tracer DNS and DHCP",
+            "type": "lesson",
+            "url": "https://spectrum.um.edu.my/mod/lesson/view.php?id=1005671",
+            "section": "General"
+        },
+        {
+            "title": "App Layer Packet Tracer Web and Email",
+            "type": "lesson",
+            "url": "https://spectrum.um.edu.my/mod/lesson/view.php?id=1005672",
+            "section": "General"
+        },
+        {
+            "title": "App Layer Packet Tracer FTP",
+            "type": "lesson",
+            "url": "https://spectrum.um.edu.my/mod/lesson/view.php?id=1005673",
+            "section": "General"
+        },
+        {
+            "title": "Chapter 9 VLANs and Inter-VLAN Routing",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1005657",
+            "section": "General"
+        },
+        {
+            "title": "Chapter 10 DHCP",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1005658",
+            "section": "General"
+        },
+        {
+            "title": "ITN 16.4.6 Packet Tracer - Configure Secure Passwords and SSH",
+            "type": "lesson",
+            "url": "https://spectrum.um.edu.my/mod/lesson/view.php?id=1005674",
+            "section": "General"
+        },
+        {
+            "title": "SRWE 11.1.10 Packet Tracer - Implement Port Security",
+            "type": "lesson",
+            "url": "https://spectrum.um.edu.my/mod/lesson/view.php?id=1005676",
+            "section": "General"
+        },
+        {
+            "title": "SRWE 3.3.12 Packet Tracer - VLAN Configuration",
+            "type": "lesson",
+            "url": "https://spectrum.um.edu.my/mod/lesson/view.php?id=1005677",
+            "section": "General"
+        },
+        {
+            "title": "SRWE 4.2.7 Packet Tracer - Configure Router-on-a-Stick Inter-VLAN Routing",
+            "type": "lesson",
+            "url": "https://spectrum.um.edu.my/mod/lesson/view.php?id=1005678",
+            "section": "General"
+        },
+        {
+            "title": "Chapter 11 Routing",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1005659",
+            "section": "General"
+        },
+        {
+            "title": "SRWE 7.2.10 Packet Tracer - Configure DHCPv4",
+            "type": "lesson",
+            "url": "https://spectrum.um.edu.my/mod/lesson/view.php?id=1005680",
+            "section": "General"
+        },
+        {
+            "title": "SRWE 7.4.1 Packet Tracer - Implement DHCPv4",
+            "type": "lesson",
+            "url": "https://spectrum.um.edu.my/mod/lesson/view.php?id=1005681",
+            "section": "General"
+        },
+        {
+            "title": "Chapter 12 Wireless LAN",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1005660",
+            "section": "General"
+        },
+        {
+            "title": "Chapter 13 Build and Secure Small Network",
+            "type": "resource",
+            "url": "https://spectrum.um.edu.my/mod/resource/view.php?id=1005662",
+            "section": "General"
+        },
+        {
+            "title": "SRWE 15.6.1 Packet Tracer - Configure IPv4 and IPv6 Static and Default Routes",
+            "type": "lesson",
+            "url": "https://spectrum.um.edu.my/mod/lesson/view.php?id=1005682",
+            "section": "General"
+        },
+        {
+            "title": "SRWE 16.3.1 Packet Tracer - Troubleshoot Static and Default Routes",
+            "type": "lesson",
+            "url": "https://spectrum.um.edu.my/mod/lesson/view.php?id=1005683",
+            "section": "General"
+        },
+        {
+            "title": "SRWE 13.2.7 Packet Tracer - Configure a Basic WLAN on the WLC",
+            "type": "lesson",
+            "url": "https://spectrum.um.edu.my/mod/lesson/view.php?id=1005684",
+            "section": "General"
+        },
+        {
+            "title": "SRWE 13.3.12 Packet Tracer - Configure a WPA2 Enterprise WLAN on the WLC",
+            "type": "lesson",
+            "url": "https://spectrum.um.edu.my/mod/lesson/view.php?id=1005685",
+            "section": "General"
+        },
+        {
+            "title": "SRWE 13.4.5 Packet Tracer - Troubleshoot WLAN Issues",
+            "type": "lesson",
+            "url": "https://spectrum.um.edu.my/mod/lesson/view.php?id=1005687",
+            "section": "General"
+        },
+        {
+            "title": "SRWE 13.5.1 Packet Tracer - WLAN Configuration",
+            "type": "lesson",
+            "url": "https://spectrum.um.edu.my/mod/lesson/view.php?id=1005688",
+            "section": "General"
+        }
+    ]
+}
