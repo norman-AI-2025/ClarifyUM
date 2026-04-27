@@ -1,0 +1,33 @@
+{
+    "total_courses": 7,
+    "courses": [
+        {
+            "course_id": "22232",
+            "course_name": "Academy of Malay StudiesGIG1012 PHILOSOPHY AND CURRENT ISSUES"
+        },
+        {
+            "course_id": "23372",
+            "course_name": "Faculty of Languages and LinguisticsGLT1033 BASIC KOREAN LANGUAGE 1"
+        },
+        {
+            "course_id": "146",
+            "course_name": "Faculty of Computer Science & Information TechnologyWIA1002/WIB1002 DATA STRUCTURE"
+        },
+        {
+            "course_id": "126",
+            "course_name": "Faculty of Computer Science & Information TechnologyWIA1003 COMPUTER SYSTEM ARCHITECTURE"
+        },
+        {
+            "course_id": "147",
+            "course_name": "Faculty of Computer Science & Information TechnologyWIA1005 NETWORK TECHNOLOGY FOUNDATION"
+        },
+        {
+            "course_id": "23527",
+            "course_name": "Faculty of Computer Science & Information TechnologyWIA1006/WID3006 MACHINE LEARNING"
+        },
+        {
+            "course_id": "26925",
+            "course_name": "Course 26925"
+        }
+    ]
+}
