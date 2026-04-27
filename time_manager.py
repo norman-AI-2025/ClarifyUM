@@ -5,17 +5,15 @@ from datetime import datetime
 # Path Unification
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 TIMETABLE_FILE = os.path.join(DATA_DIR, "timetable.json")
-UP_NEXT_FILE = os.path.join(DATA_DIR, "up_next.json")
 
 def save_timetable(data):
     """Saves the full timetable data to the data folder."""
     os.makedirs(DATA_DIR, exist_ok=True)
     with open(TIMETABLE_FILE, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=4)
-    get_up_next()
 
 def get_up_next():
-    """Calculates status and saves to the data folder."""
+    """Calculates status and returns it without triggering Live Server refresh loops."""
     if not os.path.exists(TIMETABLE_FILE):
         return None
 
@@ -50,7 +48,4 @@ def get_up_next():
             status["time_until_next"] = diff
             break
 
-    with open(UP_NEXT_FILE, 'w', encoding='utf-8') as f:
-        json.dump(status, f, indent=4)
-    
     return status
