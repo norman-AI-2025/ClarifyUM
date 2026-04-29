@@ -1,32 +1,37 @@
 [
     {
-        "title": "Unknown Task",
-        "due_time": "",
-        "course": "General",
-        "url": null
+        "title": "Individual Assignment 2",
+        "course": "23:59",
+        "due_date": "Friday, 8 May 2026 23:59",
+        "due_time": "Friday, 8 May 2026 23:59",
+        "url": "https://spectrum.um.edu.my/mod/assign/view.php?id=1092129"
     },
     {
-        "title": "Unknown Task",
-        "due_time": "",
-        "course": "General",
-        "url": null
+        "title": "Tutorial 5 Submission (Internal Memory)",
+        "course": "Add submission",
+        "due_date": "Tuesday, 12 May 2026 00:00",
+        "due_time": "Tuesday, 12 May 2026 00:00",
+        "url": "https://spectrum.um.edu.my/mod/assign/view.php?id=1065609"
     },
     {
-        "title": "Unknown Task",
-        "due_time": "",
-        "course": "General",
-        "url": null
+        "title": "Tutorial 6 Submission (External Memory)",
+        "course": "Add submission",
+        "due_date": "Tuesday, 19 May 2026 00:00",
+        "due_time": "Tuesday, 19 May 2026 00:00",
+        "url": "https://spectrum.um.edu.my/mod/assign/view.php?id=1065610"
     },
     {
-        "title": "Unknown Task",
-        "due_time": "",
-        "course": "General",
-        "url": null
+        "title": "Group Project Submission_2025/2026",
+        "course": "Add submission",
+        "due_date": "Monday, 8 June 2026 12:00",
+        "due_time": "Monday, 8 June 2026 12:00",
+        "url": "https://spectrum.um.edu.my/mod/assign/view.php?id=1085815"
     },
     {
-        "title": "Unknown Task",
-        "due_time": "",
-        "course": "General",
-        "url": null
+        "title": "Group Project: Submission Deadline12 June 2026",
+        "course": "23:59",
+        "due_date": "Friday, 12 June 2026 23:59",
+        "due_time": "Friday, 12 June 2026 23:59",
+        "url": "https://spectrum.um.edu.my/mod/assign/view.php?id=1092081"
     }
 ]

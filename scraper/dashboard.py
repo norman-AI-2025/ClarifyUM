@@ -1,12 +1,13 @@
 from bs4 import BeautifulSoup
 import time
+import re
 
-# Your known course IDs fallback
+# Your known course IDs
 KNOWN_COURSES = ['22232', '23372', '146', '126', '147', '23527', '26925']
 
 def get_upcoming_tasks(driver) -> list:
     """
-    Navigates to the SPeCTRUM Timeline and aggressively scrapes tasks, deadlines, and URLs.
+    Navigates to the SPeCTRUM Timeline and aggressively scrapes tasks using Regex and structural DOM parsing.
     """
     from selenium.webdriver.support.ui import WebDriverWait
     from selenium.webdriver.support import expected_conditions as EC
@@ -15,67 +16,77 @@ def get_upcoming_tasks(driver) -> list:
     print("[*] Navigating to Dashboard to fetch Timeline events...")
     driver.get("https://spectrum.um.edu.my/my/")
 
-    # Scroll down to ensure the timeline widget lazy-loads into the DOM
+    # Give the Timeline block time to load its AJAX content
+    time.sleep(3)
+    
+    # Scroll down to ensure all tasks lazy-load into the DOM
     for _ in range(3):
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        time.sleep(1)
+        time.sleep(1.5)
 
     soup = BeautifulSoup(driver.page_source, 'html.parser')
     tasks = []
 
-    # Look for the standard Moodle timeline event containers
-    event_items = soup.select('.list-group-item[data-region="event-list-item"]')
-    if not event_items:
-        # Fallback broad selector
-        event_items = soup.select('[data-region="event-list-item"]')
+    # Find every event container box
+    event_items = soup.select('[data-region="event-list-item"], .list-group-item.event-list-item')
 
     for item in event_items:
-        # 1. EXTRACT TITLE & URL
-        # Hunt for the anchor tag holding the assignment/quiz link
-        title_el = item.select_one('h6.event-name a') or item.select_one('a.aalink') or item.find('a', href=True)
-        title = title_el.get_text(strip=True) if title_el else "Unknown Task"
-        url = title_el['href'] if title_el else ""
-
-        # Skip blank items that slipped through
-        if title == "Unknown Task" or not url:
+        # 1. TITLE & URL (Bulletproof Link Extraction)
+        # Grab all anchor tags in the box that actually have text
+        valid_links = [a for a in item.find_all('a', href=True) if a.get_text(strip=True)]
+        if not valid_links:
             continue
+        
+        # The first valid link is almost always the assignment title
+        title_el = valid_links[0]
+        title = title_el.get_text(strip=True)
+        url = title_el['href']
 
-        # 2. EXTRACT COURSE NAME
-        # The course is usually linked to course/view.php
-        course_el = item.select_one('a[href*="course/view.php"]')
-        if course_el:
-            course_name = course_el.get_text(strip=True)
+        # Clean the title of generic Moodle text (e.g., "is due")
+        title = re.sub(r'\s+is due.*', '', title, flags=re.IGNORECASE).strip()
+
+        # 2. COURSE NAME
+        # The second link is usually the course name. If there's only 1 link, check the muted text.
+        course_name = "General Course"
+        if len(valid_links) > 1:
+            course_name = valid_links[1].get_text(strip=True)
         else:
-            # Fallback to the muted subtext
-            muted = item.select_one('small.text-muted')
-            course_name = muted.get_text(strip=True) if muted else "General Course"
+            muted = item.select_one('.text-muted, small')
+            if muted:
+                course_name = muted.get_text(strip=True)
 
-        # 3. EXTRACT DUE DATE & TIME
+        # 3. DUE TIME (Regex Hunt)
+        time_str = ""
+        # Look for a time format like '23:59' or '11:59 PM' anywhere in the item's text
+        time_match = re.search(r'\d{1,2}:\d{2}\s*(?:AM|PM|am|pm)?', item.get_text(separator=' '))
+        if time_match:
+            time_str = time_match.group()
+
+        # 4. DUE DATE (DOM Tree Climbing)
         date_str = ""
-        # SPeCTRUM groups events by date headers. Check the parent container for the date header.
-        parent_group = item.find_parent('div', attrs={'data-region': 'event-list-content-date'})
-        if parent_group:
-            header = parent_group.select_one('h5, h6')
+        # Method A: Look at the parent date grouping container
+        date_container = item.find_parent(attrs={'data-region': 'event-list-content-date'})
+        if date_container:
+            header = date_container.find(['h4', 'h5', 'h6'])
             if header:
                 date_str = header.get_text(strip=True)
-
-        # The specific time is usually aligned to the right inside the item
-        time_el = item.select_one('.text-right, .text-md-right, .event-time, .text-muted')
-        time_str = time_el.get_text(strip=True) if time_el else ""
-
-        # Cleanly combine them
-        due_date = f"{date_str} {time_str}".strip()
         
-        # Strip out useless generic text
-        due_date = due_date.replace("is due -", "").strip()
-        if not due_date or due_date == title:
+        # Method B: If no parent container, crawl backwards up the page for the closest heading
+        if not date_str:
+            prev_header = item.find_previous(['h4', 'h5', 'h6'])
+            if prev_header:
+                date_str = prev_header.get_text(strip=True)
+
+        # Cleanly combine date and time
+        due_date = f"{date_str} {time_str}".strip()
+        if not due_date:
             due_date = "Upcoming (Date unspecified)"
 
         tasks.append({
             'title': title,
             'course': course_name,
             'due_date': due_date,
-            'due_time': due_date, # Included for backwards compatibility with main.py's ntfy alerts
+            'due_time': due_date,  # Kept for backwards compatibility with main.py alerts
             'url': url
         })
 
@@ -83,9 +94,12 @@ def get_upcoming_tasks(driver) -> list:
     unique_tasks = []
     seen = set()
     for t in tasks:
-        identifier = f"{t['title']}_{t['course']}"
-        if identifier not in seen:
-            seen.add(identifier)
+        if t['title'] == "Unknown Task":
+            continue
+            
+        ident = f"{t['title']}_{t['course']}"
+        if ident not in seen:
+            seen.add(ident)
             unique_tasks.append(t)
 
     print(f"[+] Scraped {len(unique_tasks)} upcoming task(s) from Timeline.")
